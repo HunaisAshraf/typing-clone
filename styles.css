@@ -1,0 +1,370 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  border-bottom: 2px solid white;
+}
+h1 {
+  font-family: "Work Sans", sans-serif;
+}
+/* header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  padding: 5px 15px;
+  width: 100%;
+  font-weight: 500;
+  background-color: #043465;
+  color: white;
+  z-index: 1;
+}
+
+.header li {
+  list-style: none;
+  display: inline;
+  padding: 0 20px;
+  font-size: 15px;
+}
+
+.header button {
+  border: none;
+  background-color: white;
+  border-radius: 20px;
+  padding: 7px 12px;
+  font-size: 14px;
+}
+
+/* landing */
+
+.landing {
+  height: 100vh;
+  background-color: #043465;
+  background-image: url("images/background.png");
+  background-size: contain;
+  overflow: hidden;
+}
+
+.landing-body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 190px;
+}
+
+.moon-img {
+  height: 200px;
+  box-shadow: 2px 2px 50px 20px #9ac9f764;
+  border-radius: 50%;
+}
+
+.landing-text {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.landing-text button {
+  background-color: white;
+  color: #0861ba;
+  padding: 13px 50px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+}
+
+.cloud-container {
+  margin-top: 180px;
+}
+
+.cloud-container img {
+  position: absolute;
+  width: 100%;
+}
+
+.cloud-img-2 {
+  margin-top: 40px;
+}
+.cloud-img-3 {
+  margin-top: 60px;
+}
+
+/* info */
+.info,
+.account-details,
+.features-details,
+.lessons-details,
+.academies,
+footer {
+  padding: 70px 200px 0 200px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info-img {
+  height: 450px;
+}
+
+.info-text {
+  width: 500px;
+}
+
+.info-text p {
+  color: #797979;
+  line-height: 1.8;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+.info-tag {
+  font-size: 1.6rem;
+  color: #000000;
+  line-height: 1.3;
+}
+
+.info-text button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #2592ff;
+  color: #ffffff;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.stats {
+  background-color: #05407c;
+  display: flex;
+  justify-content: space-evenly;
+  color: #eeeeee;
+  padding: 20px 0;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+}
+
+.stat img {
+  height: 70px;
+  margin-right: 20px;
+}
+
+.account-details {
+  display: flex;
+  gap: 200px;
+  background-color: #f5f7f8;
+}
+
+.account-details p {
+  color: #797979;
+  font-size: 15px;
+}
+
+/* features */
+
+.features-details {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.feature-head {
+  display: flex;
+  justify-content: center;
+}
+
+.feature-heading {
+  text-align: center;
+  width: 400px;
+}
+
+.feature-heading p,
+.feature p {
+  color: #797979;
+  font-size: 16px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: 300px;
+  text-align: center;
+  margin: 30px 40px 40px 30px;
+}
+.feature img {
+  height: 70px;
+}
+.highlight {
+  font-weight: 600;
+}
+
+.features-details button {
+  background-color: #1875d1;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1rem;
+  border: none;
+  padding: 15px 50px;
+  border-radius: 8px;
+}
+
+/* lessons */
+.lessons-details {
+  background-color: #f5f7f8;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.lessons {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+.lesson {
+  width: 300px;
+  margin: 30px 40px 40px 30px;
+}
+
+.lessons-details a {
+  color: #1875d1;
+}
+
+.lesson img {
+  height: 200px;
+}
+
+.lessons-details p {
+  color: #797979;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.lsn-head {
+  text-align: center;
+}
+
+.vocab p {
+  font-size: 1.7rem;
+}
+
+/* school edition */
+
+.school-edition {
+  display: flex;
+  gap: 100px;
+  padding: 80px 250px 80px 250px;
+  background-color: #22282f;
+  color: #ffffff;
+}
+.school-edition img {
+  height: 240px;
+}
+
+.typ-tag {
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+.school-dtls p {
+  color: #bdbdbd;
+}
+.school-dtls button {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 60px;
+  font-size: 1.1rem;
+}
+
+/* subscribe */
+
+.subscribe {
+  text-align: center;
+  background-image: linear-gradient(#045fb9, #3db0ad);
+  color: #ffffff;
+  padding: 120px 100px;
+}
+
+.subscribe p {
+  margin: 0;
+}
+
+.form {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 40px 0;
+  margin: 0 300px;
+  border-radius: 6px;
+}
+
+.form input {
+  border: none;
+  padding: 5px 10px;
+  border-radius: 6px;
+  width: 70%;
+  height: 30px;
+}
+
+.form button {
+  padding: 11px 10px;
+  background-color: #1875d1;
+  color: #ffffff;
+  border: none;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 6px;
+}
+
+.academies {
+  text-align: center;
+  padding-bottom: 100px;
+}
+.academies img {
+  width: 1000px;
+  padding-top: 40px;
+}
+
+.academies p {
+  color: #797979;
+  font-size: 14px;
+}
+
+.social {
+  text-align: center;
+  background-color: #f2f2f2;
+  color: #797979;
+  padding: 100px 0;
+}
+.social p {
+  font-size: 14px;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  gap: 100px;
+  background-color: #181c24;
+  color: white;
+  font-size: 14px;
+}
+
+footer button {
+  background-color: #1875d1;
+  color: #ffffff;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 50px;
+  font-weight: 500;
+}
